@@ -2,6 +2,7 @@
 import React, { Component, Fragment } from 'react'
 import { Route } from 'react-router-dom'
 import { v4 as uuid } from 'uuid'
+import { Container } from 'react-bootstrap'
 
 import AuthenticatedRoute from './components/AuthenticatedRoute/AuthenticatedRoute'
 import AutoDismissAlert from './components/AutoDismissAlert/AutoDismissAlert'
@@ -10,6 +11,8 @@ import SignUp from './components/auth/SignUp'
 import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
+// import Footer.js file from Footer folder
+import Footer from './components/Footer/Footer'
 
 class App extends Component {
   constructor (props) {
@@ -86,7 +89,11 @@ class App extends Component {
               <ChangePassword msgAlert={this.msgAlert} user={user} />
             )}
           />
+          <Container>
+            <h1>Welcome</h1>
+          </Container>
         </main>
+        <Footer />
       </Fragment>
     )
   }

@@ -1,4 +1,4 @@
-# Capstone Project Plan
+# STOCK & CRYPTO TRADING ADVISOR
 
 API:https://github.com/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-SERVER
 

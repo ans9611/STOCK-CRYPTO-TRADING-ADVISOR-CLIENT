@@ -20,13 +20,15 @@ const unauthenticatedOptions = (
 const alwaysOptions = (
   <Fragment>
     <NavLink exact to='/' className='nav-link'>Home</NavLink>
+    <NavLink exact to='/cart' className='nav-link'><i className="fas fa-shopping-cart"></i>Cart</NavLink>
+    <NavLink exact to='/' className='nav-link'>Home</NavLink>
   </Fragment>
 )
 
 const Header = ({ user }) => (
   <Navbar bg='primary' variant='dark' expand='md'>
     <Navbar.Brand>
-      <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>react-auth-template</Link>
+      <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>GoldmanSocks</Link>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls='basic-navbar-nav' />
     <Navbar.Collapse id='basic-navbar-nav'>
