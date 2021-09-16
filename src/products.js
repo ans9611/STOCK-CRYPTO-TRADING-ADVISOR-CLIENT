@@ -2,7 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'Option for Passive investor',
-    image: '../public/images/Active.png',
+    image: 'https://i.imgur.com/H5XGHmp.png',
     description: 'Economic option for passive investor ',
     brand: 'GoldmanSocks',
     category: 'consulting',
@@ -14,7 +14,7 @@ const products = [
   {
     _id: '2',
     name: 'Trader',
-    image: '../public/images/Trader.jpg',
+    image: 'https://i.imgur.com/kIQTCbu.png',
     description: 'Hire Top class trader',
     brand: 'GoldmanSocks',
     category: 'consulting',
@@ -26,7 +26,7 @@ const products = [
   {
     _id: '3',
     name: 'Premium',
-    image: '../public/images/Active.jpg',
+    image: 'https://i.imgur.com/geMOTB9.png',
     description: 'Hire Most Experienced Ivy Financial Advisors',
     brand: 'GoldmanSocks',
     category: 'consulting',
@@ -38,7 +38,7 @@ const products = [
   {
     _id: '4',
     name: 'Goldman Sachs Socks',
-    image: '../public/images/goldmanSocks.jpeg',
+    image: 'https://i.imgur.com/SvzE9rl.jpg',
     description: 'Hire Most Experienced Ivy Financial Advisors',
     brand: 'GoldmanSocks',
     category: 'consulting',
