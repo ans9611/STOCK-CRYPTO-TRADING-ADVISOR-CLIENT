@@ -13,6 +13,7 @@ import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
 // import Footer.js file from Footer folder
 import Footer from './components/Footer/Footer'
+import HomeScreen from './screens/HomeScreen'
 
 class App extends Component {
   constructor (props) {
@@ -90,7 +91,7 @@ class App extends Component {
             )}
           />
           <Container>
-            <h1>Welcome</h1>
+            <HomeScreen />
           </Container>
         </main>
         <Footer />
