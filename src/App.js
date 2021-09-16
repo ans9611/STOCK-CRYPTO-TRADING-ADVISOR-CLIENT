@@ -14,6 +14,7 @@ import ChangePassword from './components/auth/ChangePassword'
 // import Footer.js file from Footer folder
 import Footer from './components/Footer/Footer'
 import HomeScreen from './screens/HomeScreen'
+import ProductScreen from './screens/ProductScreen'
 
 class App extends Component {
   constructor (props) {
@@ -91,7 +92,8 @@ class App extends Component {
             )}
           />
           <Container>
-            <HomeScreen />
+            <Route path ="/" component={HomeScreen} exact />
+            <Route path="/product/:id" component={ProductScreen}/>
           </Container>
         </main>
         <Footer />
