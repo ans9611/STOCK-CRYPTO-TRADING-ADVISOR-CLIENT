@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/css/main.55626484.chunk.css",
-    "main.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.5b4aa73e.chunk.js",
-    "main.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.5b4aa73e.chunk.js.map",
+    "main.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.df0574ad.chunk.js",
+    "main.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.df0574ad.chunk.js.map",
     "runtime-main.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.bb48a87d.js",
     "runtime-main.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.bb48a87d.js.map",
     "static/js/2.8fa94e08.chunk.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.8fa94e08.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.bb48a87d.js",
     "static/js/2.8fa94e08.chunk.js",
     "static/css/main.55626484.chunk.css",
-    "static/js/main.5b4aa73e.chunk.js"
+    "static/js/main.df0574ad.chunk.js"
   ]
 }
