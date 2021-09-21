@@ -1,7 +1,7 @@
 let apiUrl
 const apiUrls = {
-	production: 'https://moontrading.herokuapp.com',
-	development: 'http://localhost:8000',
+  production: 'https://moontrading.herokuapp.com',
+  development: 'http://localhost:8000',
 }
 
 if (window.location.hostname === 'localhost') {
