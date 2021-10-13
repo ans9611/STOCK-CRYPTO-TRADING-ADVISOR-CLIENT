@@ -15,6 +15,7 @@ import ChangePassword from './components/auth/ChangePassword'
 import Footer from './components/Footer/Footer'
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
+import CreateProduct from './components/products/CreateProduct'
 
 class App extends Component {
   constructor (props) {
@@ -90,6 +91,11 @@ class App extends Component {
             render={() => (
               <ChangePassword msgAlert={this.msgAlert} user={user} />
             )}
+          />
+          <AuthenticatedRoute
+            user={user}
+            path='/create-product'
+            render={() => <CreateProduct msgAlert={this.msgAlert} user={user} />}
           />
           <Container>
             <Route path ="/" component={HomeScreen} exact />
