@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ans9611.github.io/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT",
-  "name": "STOCK-CRYPTO-TRADING-ADVISOR-CLIENT",
+  "homepage": "http://ans9611.github.io/<repo-name>",
+  "name": "STOCK-CRYPTO-TRADING-ADVISOR",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
