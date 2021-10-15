@@ -10,6 +10,11 @@ import SignUp from './components/auth/SignUp'
 import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
+import CreateInvestment from './components/investments/CreateInvestment'
+import IndexInvestments from './components/investments/IndexInvestments'
+import ShowInvestment from './components/investments/ShowInvestment'
+import UpdateInvestment from './components/investments/UpdateInvestment'
+import Home from './components/Home/Home'
 
 class App extends Component {
   constructor (props) {
@@ -44,8 +49,8 @@ class App extends Component {
 
     return (
       <Fragment>
-	      <Header user={user} />
-	      {msgAlerts.map((msgAlert) => (
+        <Header user={user} />
+        {msgAlerts.map((msgAlert) => (
           <AutoDismissAlert
             key={msgAlert.id}
             heading={msgAlert.heading}
@@ -55,8 +60,8 @@ class App extends Component {
             deleteAlert={this.deleteAlert}
           />
         ))}
-	      <main className='container'>
-	        <Route
+        <main className='container'>
+          <Route
             path='/sign-up'
             render={() => (
               <SignUp msgAlert={this.msgAlert} setUser={this.setUser} />
@@ -66,6 +71,13 @@ class App extends Component {
             path='/sign-in'
             render={() => (
               <SignIn msgAlert={this.msgAlert} setUser={this.setUser} />
+            )}
+          />
+          <Route
+            path='/'
+            exact
+            render={() => (
+              <Home msgAlert={this.msgAlert} setUser={this.setUser} />
             )}
           />
           <AuthenticatedRoute
@@ -85,6 +97,28 @@ class App extends Component {
             render={() => (
               <ChangePassword msgAlert={this.msgAlert} user={user} />
             )}
+          />
+          <AuthenticatedRoute
+            user={user}
+            path='/create-investment'
+            render={() => <CreateInvestment msgAlert={this.msgAlert} user={user} />}
+          />
+          <AuthenticatedRoute
+            user={user}
+            exact
+            path='/investments'
+            render={() => <IndexInvestments msgAlert={this.msgAlert} user={user} />}
+          />
+          <AuthenticatedRoute
+            user={user}
+            exact
+            path='/investments/:id'
+            render={() => <ShowInvestment user={user} msgAlert={this.msgAlert} />}
+          />
+          <AuthenticatedRoute
+            user={user}
+            path='/investments/:id/edit'
+            render={() => <UpdateInvestment user={user} msgAlert={this.msgAlert} />}
           />
         </main>
       </Fragment>
