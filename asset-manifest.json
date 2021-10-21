@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/css/main.432dfbff.chunk.css",
-    "main.js": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.d0a90145.chunk.js",
-    "main.js.map": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.d0a90145.chunk.js.map",
-    "runtime-main.js": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.42213926.js",
-    "runtime-main.js.map": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.42213926.js.map",
-    "static/js/2.53c032e5.chunk.js": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.53c032e5.chunk.js",
-    "static/js/2.53c032e5.chunk.js.map": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.53c032e5.chunk.js.map",
-    "index.html": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/index.html",
-    "static/css/main.432dfbff.chunk.css.map": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/css/main.432dfbff.chunk.css.map",
-    "static/js/2.53c032e5.chunk.js.LICENSE.txt": "/ans9611/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.53c032e5.chunk.js.LICENSE.txt"
+    "main.css": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/css/main.55626484.chunk.css",
+    "main.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.56447599.chunk.js",
+    "main.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/main.56447599.chunk.js.map",
+    "runtime-main.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.bb48a87d.js",
+    "runtime-main.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/runtime-main.bb48a87d.js.map",
+    "static/js/2.a4d9baa0.chunk.js": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.a4d9baa0.chunk.js",
+    "static/js/2.a4d9baa0.chunk.js.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.a4d9baa0.chunk.js.map",
+    "index.html": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/index.html",
+    "static/css/main.55626484.chunk.css.map": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/css/main.55626484.chunk.css.map",
+    "static/js/2.a4d9baa0.chunk.js.LICENSE.txt": "/STOCK-CRYPTO-TRADING-ADVISOR-CLIENT/static/js/2.a4d9baa0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.42213926.js",
-    "static/js/2.53c032e5.chunk.js",
-    "static/css/main.432dfbff.chunk.css",
-    "static/js/main.d0a90145.chunk.js"
+    "static/js/runtime-main.bb48a87d.js",
+    "static/js/2.a4d9baa0.chunk.js",
+    "static/css/main.55626484.chunk.css",
+    "static/js/main.56447599.chunk.js"
   ]
 }
